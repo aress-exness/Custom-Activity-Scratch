@@ -89,7 +89,7 @@ define([
     function save() {
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
-
+console.log('line no 92');
        //console.log("dataExtensionName"+dataExtensionName);
         
         payload['arguments'].execute.inArguments = [
